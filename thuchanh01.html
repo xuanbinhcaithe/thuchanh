@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành 01</title>
+</head>
+<body>
+<!--kiểm tra ký tự đầu tiên có phải chữ in hoa không-->
+    <script>
+        bieuMau=/^[A-Z]/;
+        function check(str) {
+            if (bieuMau.test(str)) {
+                console.log("ký tự đầu tiên trong chuỗi là chữ in hoa");
+            } else {
+                console.log("ký tự đầu tiên trong chuỗi là chữ thường");
+            }
+        }
+         check('Abc');
+        string1='Nguyen xuan binh';
+        check(string1);
+    </script>
+
+</body>
+</html>
